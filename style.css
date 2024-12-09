@@ -29,6 +29,36 @@ body {
     justify-content: space-between;
 }
 
+
+
+.local h1 {
+    font-size: 45px;
+    color: #ff0000;
+}
+
+.local h1:hover{
+    color: #fff;
+}
+
+.local i {
+    font-size: 48px;
+    color: #b8acac;
+}
+
+.local i:hover {
+    color: #f60000;
+}
+
+.local ul li {
+    font-size: 35px;
+    color: #fff;
+
+}
+
+.local ul li:hover{
+    color: #f60000;
+}
+
 .header img {
     margin-top: 12px;
     margin-left: 15px;
@@ -196,4 +226,48 @@ body {
     text-decoration: none;
     color:  #f15245;  
     background: #fff;
+}
+
+@media(max-width: 991px) {
+    .header img {
+        margin-top: 12px;
+        margin-left: 15px;
+        width: 400px;
+    }
+    .header-content {
+        /* margin-left: 240px; */
+        text-align: center;
+        font-size: 40px;
+        color: #ff0000;
+        padding: 20px 10;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .swiper {
+        top: 100px;
+        width: 420px;
+        padding: 150px 0 50px 0;
+    }
+    .btn-wsp {
+        right: 60px;
+    }
+    .btn-fcb{
+        right: 60px;
+    }
+    .btn-ins {
+        right: 60px;
+    }
+
+    .local h1 {
+        text-align: center;
+        justify-content:space-around;
+        font-size: 50px;
+        align-items: center;
+       
+    }
+
+    .local ul li {
+        text-align: center;
+    }
 }
